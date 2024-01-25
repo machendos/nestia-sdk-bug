@@ -14,6 +14,6 @@ const NESTIA_CONFIG: INestiaConfig = {
         return app;
     },
     output: "src/api",
-    distribute: "src/api2",
+    distribute: "packages/api",
 };
 export default NESTIA_CONFIG;
